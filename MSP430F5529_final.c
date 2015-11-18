@@ -1,13 +1,11 @@
 //                     MSP430F5529
 //                     ____________
-//                    |            |
 //                    |        P3.4|->RX
 //                    |        P3.3|->TX
 //                    |            |
 // General Interrupt<-|P1.2    P3.0|->Trigger signal
 // General Interrupt<-|P1.3    P3.1|->Trigger signal
 // General Interrupt<-|P1.4    P3.2|->Trigger signal
-// General Interrupt<-|P1.5    P3.5|->Trigger signal
 // General Interrupt<-|P1.6    P3.6|->Trigger signal
 // General Interrupt<-|P2.0    P3.7|->Trigger signal
 // General Interrupt<-|P2.2    P4.0|->Trigger signal
@@ -348,3 +346,25 @@ void ShutDown_UART(void)
 {
   UCA0CTL1 |= UCSWRST;                           // Disable UART
 }
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
